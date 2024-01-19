@@ -11,4 +11,6 @@ public:
     std::string get_first_name();
 
     std::string get_surname();
+
+    bool compare(const Person other);
 };
