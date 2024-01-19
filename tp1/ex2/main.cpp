@@ -3,5 +3,5 @@
 
 int main() {
     Person person {"oui", "non"};
-    std::cout << person.first_name << " " << person.surname << std::endl;
+    std::cout << person.get_first_name() << " " << person.get_surname() << std::endl;
 }
